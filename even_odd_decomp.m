@@ -1,6 +1,6 @@
 function [xe, xo] = even_odd_decomp(x)
 % DESCRIPTION
-%  decomposes a signal into its even and odd components
+%  decomposes a signal into its even and odd components.
 %  Useful for FFTs
 %
 %  ex. [xe, xo] = even_odd_decomp(x)
