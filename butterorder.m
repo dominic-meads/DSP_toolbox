@@ -23,7 +23,7 @@ function n = butterorder(f,fc,M)
 logbase = @(X,base) log(X)/log(base);  % generating a log with an arbitrary base
 
 x = (1/(10^(M/10))-1);  % the quantity to take the log of
-b = f/fc;  % finding the base of the logrithm
+b = f/fc;   % finding the base of the logrithm
 
 n = logbase(x,b)/2;
 
