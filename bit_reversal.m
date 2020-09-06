@@ -1,6 +1,6 @@
 function xbr = bit_reversal(x)
 % DESCRIPTION
-%  performs a bit reversal of the index values in an array.
+%  performs a bit reversal of the index values in an array
 %  Useful for FFTs
 %
 %  ex. b = bit_reversal(x)
