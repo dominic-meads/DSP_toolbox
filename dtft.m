@@ -2,7 +2,7 @@ function X = dtft(n,x,k)
 % DESCRIPTION
 %  Performs an approximate Discrete Time Fourier Transform 
 %  the approximation is due to the fact that the output is 
-%  not continous. ex. X = dtft(n,x,k); 
+%  not continous. ex: X = dtft(n,x,k); 
 %  
 % NOTE : Only for finite duration signals.
 %
