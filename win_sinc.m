@@ -3,7 +3,7 @@ function h = win_sinc(tBW,fc,win);
 %  calculates a LOW PASS windowed-sinc FIR filter kernel
 %  All other frequency responses can be obtained using LPF 
 %  and spectral inversion. Includes an m/2 shift to avoid 
-%  negative indexes (which MATLAB does not allow).
+%  negative indexes (MATLAB does not allow).
 %
 %  ex. h = LP_win_sinc(tBW,fc,win);
 %
