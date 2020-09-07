@@ -1,6 +1,6 @@
 function x1 = sinc(x)
 % DESCRIPTION
-%  Performs the sinc function 
+%  Performs the sinc function. 
 %  sinc(x) = sin(pi*x)/(pi*x)
 %
 % INPUT VARIABLES 
