@@ -1,6 +1,6 @@
 function h_out = spectral_inv(h_in);
 % DESCRIPTION
-%  performs the spectral inversion of a filter kernel. can
+%  performs the spectral inversion of a filter kernel. Can
 %  be used with LPF to create HPF, etc...
 %
 %  ex. y = spectral_inv(h_in); -- where h_in is a filter kernel --
