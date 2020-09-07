@@ -12,7 +12,7 @@ fs = 1000;           % sampling frequency
 Ts = 1/fs;          % Sampling Period
 n = 0:fs-1;          % Samples
 t = n*Ts;           % sampling instances
-x = sin(2*pi*t)+0.5*sin(2*pi*200*t)  % signal
+x = sin(2*pi*t)+0.5*sin(2*pi*200*t)  % Signal
 
 x1 = quantize(1000,1000,sin(2*pi*t)+0.5*sin(2*pi*200*t));
 plot(x1,'.');
