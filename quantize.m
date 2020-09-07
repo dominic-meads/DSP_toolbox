@@ -21,4 +21,6 @@ n1 = 0:n-1;        % create the sample array
 t = n1*Ts;         % sampling instances in time
 x = ft;
 
+%TODO: Finish
+
 end
