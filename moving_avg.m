@@ -1,6 +1,6 @@
 function y = moving_avg(m,x)
 % DESCRIPTION
-%  calculates a moving average filter response based
+%  calculates a moving average filter based
 %  on length(m) and the input signal(x). Good for random noise and smoothing
 %  ex. h = moving_avg(m,x)
 %
