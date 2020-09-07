@@ -1,7 +1,7 @@
 function H = freq_response_diff(a,b,K)
 % DESCRIPTION
 %  Calculates the frequency response (magnitude and phase) of a difference
-%  equation. Useful for IIR filters. 
+%  equation. Useful for IIR filters
 %
 %  Form:        summation: m=0 to M of b_sub_m * exp(-j*w_sub_k*m)
 %             ------------------------------------------------------
