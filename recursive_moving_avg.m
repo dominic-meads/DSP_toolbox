@@ -1,6 +1,6 @@
 function y = recursive_moving_avg(m,x)
 % DESCRIPTION
-%  calculates a recursive moving average filter response based
+%  calculates a recursive moving average filter based
 %  on length(m) and the input signal(x). Good for random noise and smoothing
 %  ex. h = recursive_moving_average(m,x)
 %
